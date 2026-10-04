@@ -2933,16 +2933,17 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+
+
+
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: rgba(168, 139, 139, 0.297);
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: transparent;
 }
 
 .btn-primary:focus,
@@ -12571,13 +12572,11 @@ h5,
 }
 
 .btn.btn-primary {
-  background: cyan;
-  border: 1px solid white !important;
-  color: #000000 !important;
+  color: white;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #ffbd39 !important;
+  /* border: 1px solid #ffbd39 !important; */
   background: #239ED0 !important;
   color: white !important;
   /* font-size: 15px; */
